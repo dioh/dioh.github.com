@@ -1,0 +1,5 @@
+title: Danito
+permalink: /blog/:year/:month/:day/:title
+pygments: true
+exclude:
+  README.md
