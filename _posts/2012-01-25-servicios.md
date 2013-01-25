@@ -1,46 +1,51 @@
 ---
 layout: blog
-title: Informacion, privacidad
-summary: Digamos que no a los servicios extorsivos.
+title: Información, privacidad
+summary: Que no nos extorsionen los servicios.
 ---
 
 # {{ page.title }}
 
-__10 - enero, CABA__
+__25 - enero, CABA__
 
-Es la primera vez que escribo en publico y es tanto una oportunidad como un desafio. Poder intercambiar ideas de una manera precisa y sintetica fue y es un objetivo para mi en muchos planos. En este en particular me vere planteando problemas post-modernos, nuestra relacion con un medio cada dia mas complejo y con muchos actores. 
+Es la primera vez que escribo en público y es tanto una oportunidad como un desafío. Poder intercambiar ideas de una manera precisa y sintética fué y es un objetivo para mi en muchos planos. En este en particular me vere planteando problemas post-modernos, nuestra relación con la computación, un medio cada día mas complejo y con muchos actores. 
 
-Hablemos en criollo, sin tecnisismos sobre la tecnolog'ia hoy. Sobre los servicios que utilizamos y cuan expuestos nos encontramos.
+Hablemos en criollo, sin tecnicismos sobre la tecnología hoy. Sobre los servicios que utilizamos y cuán expuestos nos encontramos ante ellos.
 
-Como muchos, yo compro por internet. Es una comodidad realmente, encontrar el mejor precio sin salir de casa, poder comparar los productos, hasta conseguir una promo. Que facil!
+Veamos un sitio como Agrupate, este sitio es un buen representante del universo de estos servicios (i.e: servicios de compra online).
 
-Y es asi como, buscando comprar un articulo de necesidad me encontr'e con agrupate. Este sitio, como muchos otros nos publica ofertas tentadoras, solamente necesitamos registrarnos.
-
-Pero, este proceso de registracion, alta de usuario, etc, no es un poco invasivo? 
+Pero, este proceso de registración, alta de usuario, etc, ¿será invasivo? 
 Veamos como es la registracion del sitio:
 
 ![Agrupate](/images/agrupate_regist.png "Registracion en agrupate.com")
 
-Los campos obligatorios que me preocupan son:
+Veamos un subconjunto de los campos obligatorios para completar el alta de usuario:
  + Nombre
  + Apellido
  + email
  + dni
 
-Cuando voy a un negocio a comprar una lamparita, necesitan mi dni o mi email? Este negocio de compras, necesita saber quien soy? Y si asi lo fuera, estoy dispuesto a darle mis datos personales?
 
-No estamos obligados a dar informacion real. Nuestro nombre y apellido son facilmente suplantados por seudonimos, nuestro dni si no es validado contra un padron tambien. Pero y nuestro correo electronico?
+¿Estamos obligados a dar información real? ¿Cual es el beneficio que nos representa a nosotros? ¿Cuál es el que le genera a la compañía en cuestión? (Hablaremos sobre el rédito que tienen los holdings de la información en futuros posts, por ahora quedemonos con la pregunta).
 
-Muchos websites utilizan una estrategia de muy sencilla para validar que la direccion de email sea valida, la confirmacion. "Nosotros le enviaremos un correo electronico para activar la cuenta y verificar que no nos este 'metiendo el perro' con el correo ingresado".
+## Protegiendo nuestros datos
 
-Para saltear esta limitacion les presento Mailinator (y algun primo cercano)
+Nuestro nombre y apellido son facilmente suplantados por seudonimos, nuestro DNI si no es validado contra un padrón también. ¿Y nuestro correo electronico?
+
+Muchos websites utilizan una estrategia de muy sencilla para validar la direccion de email, la confirmación. "Nosotros le enviaremos un correo electronico para activar la cuenta y verificar que no nos este 'metiendo el perro' con el correo ingresado".
+
+El algorítmo es sencillo:
+ 1. El website nos envía un correo a la casilla que le hubieramos dado.
+ 2. Nosotros accedemos a una URL (generamos un evento) que solo es accesible desde ese correo.
+ 3. El servicio confirma que el correo existe y es nuestro. Así podrá enviarmos notificaciones, spam, etc.
+
+Para saltear este esquema de validación les presento Mailinator (y algun primo cercano)
 
 ## Casillas de correo desechables
 ### Mailinator
 [Mailinator] (http://www.mailinator.com/) ofrece casillas de correo electronico desechables. Uno puede crear una, recibir *el* correo que espera para registrarse y **listo el pollo**. Pudimos registrarnos sin utilizar nuestro correo personal.
 
 ### asdasd
-[asdasd.ru] (http://asdasd.ru) es otro servicio gratuito para utilizar casillas desechables. Facil de utilizar y rapido.
+[asdasd.ru] (http://asdasd.ru) es otro servicio gratuito para utilizar casillas desechables. Fácil de utilizar y rápido.
 
-No voy a comentar su uso, solo quiero mostrar que la tecnologia existe y para que puede ser utilizada.
 
