@@ -1,6 +1,8 @@
 title: Danito
 permalink: /blog/:year/:month/:day/:title
-pygments: true
+pygments: True
+markdown: maruku
+paginate: 4
 exclude:
   README.md
 
