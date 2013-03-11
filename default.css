@@ -1,7 +1,7 @@
 body {
 	font: 14px/1.5em "Lucida Grande", "Lucida Sans Unicode";
-	color: white;
-	background: black;
+	color: #DDDDDD;
+	background: #404040;
 }
 
 h1, h2 {
@@ -88,6 +88,11 @@ a:hover {
 p.intro:first-letter {
 	font-weight: bold;
 	font-size: 1.5em;
+}
+
+.pagination{
+	display: block;
+	text-align: center;
 }
 
 /* Personal information box */

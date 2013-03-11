@@ -4,26 +4,54 @@ title: "Analizando el cambio"
 ---
 
 <div id="posts">
-	<h2>Posts</h2>
-		{% for post in site.posts %}
-		<div class="post">
-			<div>
-				<span class="post_date">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
-			</div>
-			<div class="post_summary">{{ post.summary }}</div>
-		</div>	
-		{% endfor %}
+    <h2>Posts - Privacidad y demás</h2>
+    {% for post in paginator.posts %}
+    <div class="post">
+        <div>
+            <span class="post_date">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+        </div>
+        <div class="post_summary">{{ post.summary }}</div>
+    </div>	
+    {% endfor %}
 </div>
 
 <hr/>
 
 <div id="blurb">
 
-	<p>
-		<strong>Estas son</strong> algunas reflexiones mias sobre información, privacidad y vida.<br/>
-		<strong>Inspirado por</strong> gente como Gera, Fruss, Gutes y Piter.<br/>
-		<strong>Cuyo destino es</strong> Comunicar.<br/>
-	</p>
+    <div id="navigation">
+        <div id="post-pagination" class="pagination"> 
+            {% if paginator.previous_page %}
+            <!-- <div class="previous"> -->
+                {% if paginator.previous_page == 1 %}
+                <a href="/">&lt;</a>
+                {% else %}
+                <a href="/page{{paginator.previous_page}}">&lt;</a>
+                {% endif %}
+                <!-- </div> -->
+            {% else %}
+            <!-- <div class="previous disabled"> -->
+                <span>&lt;</span>
+                <!-- </div> -->
+            {% endif %}
+            {% if paginator.next_page %}
+            <!-- <div class="next"> -->
+                <a href="/page{{paginator.next_page}}">&gt;</a>
+                <!-- </div> -->
+            {% else %}
+            <!-- <div class="next disabled"> -->
+                <span>&gt;</span>
+                <!-- </div> -->
+            {% endif %} 
+        </div>
+    </div>
+<div id="blurb">
+
+    <p>
+    <strong>Estas son</strong> algunas reflexiones mias sobre información, privacidad y vida.<br/>
+    <strong>Inspirado por</strong> gente como Gera, Fruss, Gutes y Piter.<br/>
+    <strong>Cuyo destino es</strong> Comunicar.<br/>
+    </p>
 </div>
 
 <hr/>
