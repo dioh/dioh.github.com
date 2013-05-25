@@ -3,7 +3,7 @@ layout: blog
 title: Likes de Facebook revelarían información personal
 summary: Lo privado depende del ojo del observador
 ---
-Estaba leyendo una nota y me encanta esta frase:
+Estaba leyendo esta nota [0] y me encanta esta frase:
 > Then you’ve just given enough information to Facebook for someone to profile you as a likely drug-user with a low IQ whose parents divorced before you were 21.
 > Entonces has dado [a fb] suficiente información para categorizarte (con cierta probabilidad) como un usuario de drogas con bajo coeficiente intelectual cuyos padres se divorciaron antes de que tuvieras 21
 
