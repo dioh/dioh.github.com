@@ -3,8 +3,6 @@ permalink: /blog/:year/:month/:day/:title
 pygments: True
 markdown: maruku
 paginate: 4
-exclude:
-  README.md
 
 maruku:
   use_tex:      false
