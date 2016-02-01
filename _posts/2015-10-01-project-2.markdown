@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 1
+date: 2015-10-01
+img: Earthquakes-48.png
+alt: image-alt
+project-date: October 2015
+client: UN OCHA
+category: Research
+description: Regarding The Port hackaton, we incept a data science project regarding the data integration in the Nepal Earthquake disaster. Outcome is a spin-off <a href="http://datasauri.github.io/">Datasauri</a>.
+
+---
