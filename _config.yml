@@ -1,8 +1,8 @@
 # Site settings
-title: Computer Scientist
+title: MsCS Daniel Foguel
 email: dan.foguel+gp@gmail.com
 url: https://dioh.github.io
-description: "Daniel Foguel - Computer Scientist"
+description: "MsCS Daniel Foguel - Computer Scientist"
 skills: "Platform engineer, Data Scientist, Software engineer, world problems solver"
 meta_author: Daniel Foguel
 
@@ -40,8 +40,8 @@ footer:
 social:
   - title: twitter
     url: http://twitter.com/quenochetete
-  - title: facebook
-    url:
+  - title: bar
+    url: http://datasauri.github.io
   - title: github
     url: http://github.com/dioh
 
