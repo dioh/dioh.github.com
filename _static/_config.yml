@@ -1,5 +1,0 @@
-title: Daniel Foguel
-permalink: /blog/:year/:month/:day/:title
-pygments: true
-exclude:
-  README.md
