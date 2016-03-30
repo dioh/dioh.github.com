@@ -7,6 +7,7 @@ alt: image-alt
 project-date: February 2015
 client: CERN
 category: Research
-description: As part of my PhD formation I worked a year in a M&S platform. I did modelling and automation requirements such as refinements in the model (very complex discrete events model), data analytics over the complex aquisition parameters and metrics database.
+description: As part of my PhD formation I worked a year in a Simulation and Modeling platform. I did modelling and automation requirements such as refinements in the model (very complex discrete events model), data analytics over the complex aquisition parameters and metrics database.
+As part of my responsabilities where to research in new integration platforms, develop data analytics algorithms and enhance visualization artifacts for better information analysis.
 
 ---
